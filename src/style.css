@@ -1,0 +1,39 @@
+body {
+    background-color: #6553A6;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.column-circle {
+    background-color: white;
+    width: 90px;
+    /* adjust as needed */
+    height: 400px;
+    /* should be equal to width */
+    border-radius: 50%;
+    /* additional styles to center content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    /* adjust as needed */
+}
+
+.column-circle-middle {
+    background-color: white;
+    width: 1000px;
+    /* adjust as needed */
+    height: 400px;
+    /* should be equal to width */
+    border-radius: 50%;
+    /* additional styles to center content */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    /* adjust as needed */
+}
+
+.labels {
+    color: gray;
+}
